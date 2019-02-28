@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+ <button id="create-btn" type="button" name="button">Create</button>
+
+  <form id="create">
+    Title:<br>
+    <input id="title" type="text" name="title" placeholder="Title">
+    <br>
+    Image:<br>
+    <input id="image" type="text" name="image" placeholder="Image">
+    <input id="photographer" type="hidden" value="48">
+    <br>
+    Category Id:
+    <select id="category"><option disabled selected hidden>Please Choose...</option></select>
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+<!-- Header -->
+<div class="header">
+  <h1>Responsive Image Grid</h1>
+  <p>Resize the browser window to see the responsive effect.</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+  </div>
+</div>
+
+<form id="update"></form>
+
+<div class="sidenav">
+<a href="#animals">Animals</a>
+<a href="#people">People</a>
+<a href="#scenic">Scenic</a>
+<a href="#random">Random</a>
+</div>
+
+ <link rel="stylesheet" href="index.css">
+ <script src="api.js"></script>
+ <script src="app.js"></script>
+ <script src="post.js"></script>
+ <script src="index.js"></script>
+</body>
+</html>
